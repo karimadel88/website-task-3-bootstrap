@@ -1,0 +1,204 @@
+/*
+    #37517E
+    #FFFFFF
+    #47B2E4
+*/
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+}
+
+a {
+  color: #fff;
+}
+
+.upper-bar {
+  background-color: #08526d;
+  color: #fff;
+}
+
+.upper-bar .info {
+  margin: 15px 0;
+}
+
+@media (max-width: 576px) {
+  .upper-bar .info:first-child {
+    margin-bottom: 0;
+  }
+}
+
+.upper-bar span {
+  color: #bfc6c9;
+}
+
+/******/
+#header {
+  background-color: rgb(8, 82, 109, 0.8);
+}
+.navbar-brand {
+  font-weight: 700;
+  font-size: 30px;
+  border-right: 1px solid #08526d;
+  padding-right: 10px;
+  font-weight: bold;
+}
+.navbar-brand .span-v {
+  color: #ed1d24;
+}
+
+.btn-main {
+  border-color: #47b2e4;
+  color: #fff;
+}
+
+a:hover {
+  color: #ed1d24;
+}
+
+.nav-item {
+  margin-right: 15px;
+}
+
+button:hover {
+  background-color: #08526d !important;
+}
+
+/** Slider **/
+.slider {
+  background-color: #08526d;
+}
+
+.slider img {
+  height: 100%;
+}
+
+.padding {
+  padding: 0 100px;
+  /* background-color: rgba(0, 0, 0, 0.2); */
+}
+
+.c-inner button {
+  color: #fff !important;
+}
+
+/* Featres */
+.features {
+  padding: 70px 0;
+}
+
+.features svg {
+  width: 50px;
+  height: 50px;
+  background-color: #08526d;
+  padding: 20px;
+
+  color: #fff;
+}
+
+.features h3 {
+  color: #08526d;
+  font-weight: bold;
+}
+
+.features p {
+  color: #08526d;
+  opacity: 0.7;
+  margin-bottom: 40px;
+}
+
+/* Who are */
+
+.overview {
+  background-color: #bfc6c9;
+  padding: 70px;
+}
+
+.overview p {
+  opacity: 0.7;
+  margin-bottom: 30px;
+}
+
+.overview button {
+  background-color: #08526d !important;
+  border: none;
+}
+
+.overview h2 {
+  color: #08526d !important;
+}
+
+/***/
+.tools {
+  padding: 70px;
+  color: #08526d !important;
+}
+
+button:hover {
+  color: #fff !important;
+}
+
+.code {
+  padding: 70px;
+  color: #08526d !important;
+  background-color: #bfc6c9;
+}
+
+.code a {
+  color: #47b2e4;
+}
+
+.inner-code {
+  background-color: #08526d;
+  border: none;
+}
+
+pre {
+  background-color: #212529;
+  border-radius: 5px;
+}
+
+/* Books */
+.books {
+  padding: 70px;
+  color: #08526d !important;
+  background-color: #fff;
+}
+
+.books .btn {
+  background-color: #08526d !important;
+}
+
+/* Team */
+.team {
+  padding: 70px;
+  color: #08526d !important;
+  background-color: #bfc6c9;
+}
+.team h4 {
+  color: #212529;
+  font-weight: bold;
+}
+
+/* Team */
+.social {
+  padding: 70px;
+  color: #08526d !important;
+  background-color: #fff;
+}
+.team .card-text {
+  margin-top: -15px;
+}
+.social .btn {
+  background-color: #08526d;
+  border: none;
+  color: #fff;
+  margin-right: 5px;
+}
+
+/* Footer */
+footer {
+  padding: 70px;
+  background-color: #08526d !important;
+  color: #fff;
+}
